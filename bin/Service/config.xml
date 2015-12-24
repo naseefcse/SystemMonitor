@@ -1,0 +1,24 @@
+<monitor>
+<admin>
+<name>Lesli Kivit</name>
+<mail>crossover.cpp.assignment@gmail.com</mail>
+<password>1q2s3c1234</password>
+</admin>
+<clients>
+    <client login="ibrahim" pass="xxx"  mail="zulfiker.ali786@gmail.com">
+        <alert type="memory" limit="50%" />
+        <alert type="cpu" limit="20%" />
+        <alert type="processes" limit="50" />
+    </client>
+    <client login="dipal" pass="xxx"  mail="dipal.soul@gmail.com">
+        <alert type="memory" limit="60%" />
+        <alert type="cpu" limit="70%" />
+        <alert type="processes" limit="20" />
+    </client>
+	<client login="naseef" pass="xxx"  mail="partho.maple@gmail.com">
+        <alert type="memory" limit="50%" />
+        <alert type="cpu" limit="20%" />
+        <alert type="processes" limit="50" />
+    </client>
+</clients>
+</monitor>

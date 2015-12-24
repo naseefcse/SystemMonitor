@@ -1,0 +1,24 @@
+﻿Build started 12/5/2015 12:45:17 PM.
+     1>Project "G:\Mine\CrossOver\new\Deliverables\Naseef_Ur_Rahman_Chowdhury_Cpp_Assignment\source\cpprestService\cpprestService\cpprestService.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\VS_Setup\VC\bin\CL.exe /c /I"..\include\openssl-0.9.8l\inc32" /I..\include /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt mailsender.cpp
+         mailsender.cpp
+     1>g:\mine\crossover\new\deliverables\naseef_ur_rahman_chowdhury_cpp_assignment\source\cpprestservice\cpprestservice\mailsender.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+       Link:
+         F:\VS_Setup\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Mine\CrossOver\new\Deliverables\Naseef_Ur_Rahman_Chowdhury_Cpp_Assignment\source\cpprestService\Release\cpprestService.exe" /NOLOGO /LIBPATH:..\libs libeay32.lib ssleay32.lib tinyxml2.lib cpprest120_2_6.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Mine\CrossOver\new\Deliverables\Naseef_Ur_Rahman_Chowdhury_Cpp_Assignment\source\cpprestService\Release\cpprestService.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Mine\CrossOver\new\Deliverables\Naseef_Ur_Rahman_Chowdhury_Cpp_Assignment\source\cpprestService\Release\cpprestService.lib" /MACHINE:X86 /SAFESEH Release\config.obj
+         Release\mailsender.obj
+         Release\main.obj
+         Release\monitor.obj
+         Release\base64.obj
+         Release\CSmtp.obj
+         Release\md5.obj
+         Release\Utils.obj
+         Generating code
+         Finished generating code
+     1>tinyxml2.lib(tinyxml2.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'tinyxml2.lib(tinyxml2.obj)' or at 'G:\Mine\CrossOver\new\Deliverables\Naseef_Ur_Rahman_Chowdhury_Cpp_Assignment\source\cpprestService\Release\vc120.pdb'; linking object as if no debug info
+         cpprestService.vcxproj -> G:\Mine\CrossOver\new\Deliverables\Naseef_Ur_Rahman_Chowdhury_Cpp_Assignment\source\cpprestService\Release\cpprestService.exe
+     1>Done Building Project "G:\Mine\CrossOver\new\Deliverables\Naseef_Ur_Rahman_Chowdhury_Cpp_Assignment\source\cpprestService\cpprestService\cpprestService.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.41
